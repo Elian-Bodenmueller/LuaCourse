@@ -1,0 +1,17 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          {
+            "command": "mkdir -p dist/apps/frontend && cp -r apps/frontend/src/* dist/apps/frontend/"
+          }
+        ]
+      }
+    }
+  }
+}
