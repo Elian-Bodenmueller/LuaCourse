@@ -1,0 +1,17 @@
+{
+  "name": "luacourse",
+  "version": "1.0.0",
+  "description": "A simple demo project for a Roblox Lua programming course. Run `node server.js` and open http://localhost:3000 to view the course website. The basic course is free. Access the advanced section by simulating a purchase for $29.99 via the provided link.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
