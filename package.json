@@ -1,0 +1,31 @@
+{
+  "name": "luacourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nx": "nx",
+    "build": "nx run-many --target=build --all",
+    "serve": "nx serve backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nx/js": "^21.1.2",
+    "@nx/workspace": "^21.1.2",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "nx": "21.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "nx": {},
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
