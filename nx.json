@@ -1,6 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "luacourse",
+  "installation": {
+    "version": "21.1.2",
+    "plugins": {
+      "@nx/node": "21.1.2"
+    }
+  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",
