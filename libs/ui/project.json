@@ -1,0 +1,15 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ui/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/libs/ui",
+        "main": "libs/ui/src/index.ts",
+        "tsConfig": "libs/ui/tsconfig.json"
+      }
+    }
+  }
+}
